@@ -2,7 +2,7 @@
 (function() {
   var $, FIELDS, db, genResult, remotedb, resultsEl;
 
-  remotedb = new PouchDB('http://couch.samgentle.com/docs-nodejs-5-4-0');
+  remotedb = new PouchDB('https://couch.samgentle.com/docs-nodejs-5-4-0');
 
   db = new PouchDB('local');
 
